@@ -1,0 +1,522 @@
+/* global */
+
+::-moz-placeholder {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+:-moz-placeholder {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.fixed-nav .wrapper {
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+.navbar,
+.navbar-header {
+    height: 60px;
+}
+
+.nav>li>a {
+    height: 60px;
+    line-height: 60px;
+    margin: 0 15px;
+    border-bottom: 1px solid #4c565f;
+}
+
+.nav>li.active>a {
+    border-bottom: 1px solid #4c565f;
+}
+.nav>li:last-child a{
+    border-bottom:0;
+}
+
+
+.navbar-brand {
+    padding: 14px 15px;
+}
+.navbar-brand img{
+    height: 32px;
+}
+.navbar-toggle{
+    margin-top: 10px;
+}
+.navbar-fixed-top .navbar-collapse{
+    max-height: none;
+}
+
+.navbar-collapse {
+    text-align: center;
+    background-color: #383f46;
+}
+.navbar-collapse.in {
+    background-color: #383f46;
+}
+.navbar-collapse.in .nav li a {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.banner {
+    height: 300px;
+    /* background-attachment: scroll; */
+}
+
+.banner h1 {
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 14px;
+}
+
+
+/* 组织需求 */
+
+.org,
+.identity {
+    padding: 40px 0 15px;
+}
+
+.org h1,
+.identity h1 {
+    margin-bottom: 45px;
+}
+
+.org h2,
+.identity h2 {
+    margin: 20px 0;
+}
+
+.org .detail,
+.identity .detail {
+    margin-bottom: 25px;
+}
+
+.org .detail img,
+.identity .detail img {
+    height: 28px;
+}
+
+
+/* 业务需求 */
+
+.business {
+    padding: 30px 0 20px;
+}
+
+.business ul {
+    padding-top: 25px;
+}
+
+.business li {
+    padding: 2px 0 2px 36px;
+    -webkit-background-size: 27px 25px;
+    background-size: 27px 25px;
+}
+
+.business li:nth-of-type(2) {
+    -webkit-background-size: 25px 21px;
+    background-size: 25px 21px;
+}
+
+.business li:nth-of-type(3) {
+    -webkit-background-size: 21px 23px;
+    background-size: 21px 23px;
+}
+
+.business li h2 {
+    margin-top: 3px;
+}
+
+
+/* 内容需求 */
+
+.content h1 {
+    margin-top: 55px;
+}
+
+.content li {
+    -webkit-background-size: 25px 25px;
+    background-size: 25px 25px;
+}
+
+
+/* 社交需求 */
+
+.social h1 {
+    margin-top: 55px;
+}
+
+.social li {
+    -webkit-background-size: 25px 25px;
+    background-size: 25px 25px;
+}
+.iphone{
+    height: 260px;
+} 
+
+.business .iphone{
+    margin-top: 50px;
+}
+.content .iphone{
+    margin-left: -50px;
+}
+/* 联系方式 */
+
+.contact {
+    padding: 35px 0 25px;
+}
+
+.contact h1 {
+    margin-bottom: 40px;
+}
+
+.formbox {
+    margin-bottom: 25px;
+}
+
+
+.formbox .hangye {
+    background: url(../images/arraw.png) no-repeat 97% 14px;
+    -webkit-background-size: 9px 7px;
+    background-size: 9px 7px;
+}
+
+.formbox .hangye ul {
+    top: 32px;
+}
+
+.formbox .hangye ul li {
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.formbox .hangye input[type=radio] {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+
+.formbox input[type=text] {
+    height: 40px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.formbox button {
+    height: 40px;
+    font-size: 16px;
+}
+
+.contact p {
+    font-size: 16px;
+}
+
+
+
+
+/* 底部 */
+
+.footer {
+    padding: 40px 0;
+    min-height: 44px;
+    line-height: 44px;
+    background-color: #202020;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer a {
+    padding: 0 6px;
+    color: #fff;
+}
+
+
+/* 悬浮联系方式 */
+
+.suspend {
+    width: 280px;
+    height: 300px;
+    background-image: url(../images/free_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    position: fixed;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -140px;
+    z-index: 99999;
+    display: none;
+}
+
+.suspend i {
+    width: 24px;
+    height: 31px;
+    background-image: url(../images/free_x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 31px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+}
+
+.suspend #please {
+    width: 225px;
+    height: 45px;
+    line-height: 45px;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    margin-left: 27px;
+    margin-top: 168px;
+    font-size: 18px;
+    color: #ec4d35;
+}
+
+.suspend #please::-webkit-input-placeholder {
+    color: #ec4d35;
+}
+
+.suspend #tiyan {
+    width: 225px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    margin-left: 27px;
+    color: #685403;
+    margin-top: 15px;
+}
+
+
+/*侧边弹窗*/
+
+.side_pop {
+    width: 200px;
+    height: 430px;
+    background-image: url(../images/left_pop_01.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    position: fixed;
+    top: 20%;
+    left: 3px;
+    z-index: 9999;
+}
+
+.container_float {
+    margin-top: 97px;
+    padding: 18px 20px 0 20px;
+    background-color: #fffdd7;
+    height: 330px;
+}
+
+.side_pop p {
+    width: 160px;
+    font-size: 14px;
+}
+
+.first_item,
+.second_item {
+    margin-top: 10px;
+    color: #685403;
+    height: 42px;
+    line-height: 42px;
+    background-image: url(../images/float_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.first_item a,
+.second_item a {
+    color: #685403;
+}
+
+.side_pop .code {
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.side_pop > div {
+    text-align: center;
+}
+
+.scan {
+    color: #ec4d35;
+    font-size: 12px;
+}
+
+.trial {
+    color: #fff;
+    font-size: 16px;
+    background-image: url(../images/float_02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 42px;
+    height: 42px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.trial a {
+    color: #fff!important;
+    display: block;
+}
+
+.closed_pop {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    cursor: pointer;
+}
+
+.QQ_icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/float_04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+    margin-bottom: -6px;
+    display: inline-block;
+}
+
+.online_icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/float_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+    margin-bottom: -6px;
+    display: inline-block;
+}
+
+.hotline_icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/left_pop_05.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.coop_submit {
+    margin-top: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.coop_submit a {
+    height: 50px!important;
+    background-color: #ea5354;
+    color: #fff;
+    padding-left: 0!important;
+    margin-left: 0!important;
+    font-size: 24px!important;
+    margin-bottom: 30px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.coop_submit input:hover {
+    background-color: #d84243!important;
+}
+
+.close_pop {
+    position: absolute;
+    top: 0;
+    right: 8px;
+}
+
+
+/*固定底部*/
+
+.footer_fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 999;
+}
+
+.footer_fixed_div {
+    height: 60px;
+    padding: 10px 5px;
+}
+
+.footer_fixed_div input {
+    width: 58%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    line-height: 40px;
+    text-indent: 1em;
+    font-size: 16px;
+    color: #888888;
+    margin-left: 10%;
+}
+
+.footer_fixed_div button {
+    width: 26%;
+    height: 40px;
+    background-color: #3ee1a6;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 3%;
+    color: #fff;
+    font-size: 16px;
+}
+
+

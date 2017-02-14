@@ -1,0 +1,638 @@
+/* global */
+
+ul,
+ol {
+    list-style: none;
+}
+
+input,
+button,
+select,
+textarea {
+    border: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
+    outline: none;
+}
+
+a,
+button,
+input {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/*去除ios默认的按钮样式*/
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    -webkit-appearance: none;
+}
+
+::-moz-placeholder {
+    color: #fff;
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+:-moz-placeholder {
+    color: #fff;
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.fixed-nav .wrapper {
+    margin-top: 110px;
+}
+
+.bg-green {
+    background-color: #3ee1a6;
+    color: #fff;
+}
+
+.bg-white {
+    background-color: white;
+    color: #333;
+}
+
+.container {
+    max-width: 1080px;
+    overflow: hidden;
+}
+.navbar-nav{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar,
+.navbar-header {
+    height: 110px;
+    background-color: #202020;
+}
+
+.nav>li>a {
+    height: 110px;
+    line-height: 110px;
+    padding: 0;
+    margin: 0 15px;
+    color: #fff;
+}
+
+.nav>li.active>a {
+    border-bottom: 4px solid #3ee1a6;
+    color: #3ee1a6;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent;
+    color: #3ee1a6;
+}
+
+.navbar-brand {
+    padding: 24px 15px;
+}
+
+.navbar-toggle {
+    margin-top: 35px;
+    color: #3ee1a6;
+    padding: 6px 12px;
+    font-size: 18px;
+}
+
+.navbar-collapse.in {
+    background-color: #202020;
+}
+
+.navbar-collapse.in .nav li a {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 542px;
+    background: url(../images/banner.jpg) no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #333;
+}
+
+.banner .banner-in {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner h1 {
+    margin-bottom: 25px;
+}
+
+.banner .line {
+    display: block;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 4px;
+    background-color: #3ee1a6;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+
+/* 组织需求 */
+
+.org,
+.identity {
+    padding: 80px 0 30px;
+}
+
+.org h1,
+.identity h1 {
+    margin-bottom: 90px;
+}
+
+.org h2,
+.identity h2 {
+    margin: 40px 0;
+}
+
+.org .detail,
+.identity .detail {
+    margin-bottom: 50px;
+}
+
+.org .detail img,
+.identity .detail img {
+    height: 56px;
+}
+
+
+/* 业务需求 */
+
+.business {
+    padding: 60px 0 40px;
+}
+
+.business ul {
+    padding-top: 50px;
+    padding-left: 0;
+}
+
+.business li {
+    padding: 2px 0 40px 74px;
+    background: url(../images/business_icon1.png) no-repeat left top;
+    -webkit-background-size: 53px 50px;
+    background-size: 53px 50px;
+}
+
+.business li:nth-of-type(2) {
+    background-image: url(../images/business_icon2.png);
+    -webkit-background-size: 49px 42px;
+    background-size: 49px 42px;
+}
+
+.business li:nth-of-type(3) {
+    background-image: url(../images/business_icon3.png);
+    -webkit-background-size: 42px 45px;
+    background-size: 42px 45px;
+}
+
+.business li h2 {
+    margin-top: 6px;
+}
+
+
+/* 内容需求 */
+
+.content h1 {
+    margin-top: 110px;
+}
+
+.content li {
+    background-image: url(../images/content_icon1.png);
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+}
+
+
+/* 社交需求 */
+
+.social h1 {
+    margin-top: 110px;
+}
+
+.social li {
+    background-image: url(../images/social_icon1.png);
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+}
+
+
+/* 联系方式 */
+
+.contact {
+    padding: 70px 0 50px;
+}
+
+.contact h1 {
+    margin-bottom: 80px;
+}
+
+.formbox {
+    margin-bottom: 50px;
+}
+
+.formbox .hangye {
+    position: relative;
+    z-index: 9;
+}
+
+.formbox .hangye {
+    background: url(../images/arraw.png) no-repeat 97% 26px;
+    -webkit-background-size: 18px 14px;
+    background-size: 18px 14px;
+}
+
+.formbox .hangye.slide {
+    background-image: url(../images/arraw_up.png);
+}
+
+.formbox .hangye ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    background-color: #3ee1a6;
+    border: 1px solid #fff;
+    border-top: 0;
+    border-radius: 0 0 6px 6px;
+    color: #fff;
+    display: none;
+}
+
+.formbox .hangye ul li {
+    float: left;
+    width: 50%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.formbox .hangye input[type=radio] {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.formbox .hangye input[type=radio]:checked {
+    background-color: #fff;
+}
+
+.formbox input[type=text] {
+    width: 100%;
+    height: 64px;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.formbox button {
+    width: 100%;
+    height: 64px;
+    background-color: #ffffff;
+    color: #3ee1a6;
+    font-size: 24px;
+    border-radius: 6px;
+}
+
+.contact p {
+    font-size: 24px;
+}
+
+.contact a {
+    color: #fff;
+}
+
+
+/* 底部 */
+
+.footer {
+    padding: 40px 0;
+    min-height: 44px;
+    line-height: 44px;
+    background-color: #202020;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer a {
+    padding: 0 6px;
+    color: #fff;
+}
+
+
+/* 悬浮联系方式 */
+
+.suspend {
+    width: 280px;
+    height: 300px;
+    background-image: url(../images/free_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    position: fixed;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -140px;
+    z-index: 99999;
+    display: none;
+}
+
+.suspend i {
+    width: 24px;
+    height: 31px;
+    background-image: url(../images/free_x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 31px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+}
+
+.suspend #please {
+    width: 225px;
+    height: 45px;
+    line-height: 45px;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    margin-left: 27px;
+    margin-top: 168px;
+    font-size: 18px;
+    color: #ec4d35;
+}
+
+.suspend #please::-webkit-input-placeholder {
+    color: #ec4d35;
+}
+
+.suspend #tiyan {
+    width: 225px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    margin-left: 27px;
+    color: #685403;
+    margin-top: 15px;
+}
+
+
+/*侧边弹窗*/
+
+.side_pop {
+    width: 200px;
+    height: 430px;
+    background-image: url(../images/left_pop_01.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    position: fixed;
+    top: 20%;
+    left: 3px;
+    z-index: 9999;
+}
+
+.container_float {
+    margin-top: 97px;
+    padding: 18px 20px 0 20px;
+    background-color: #fffdd7;
+    height: 330px;
+}
+
+.side_pop p {
+    width: 160px;
+    font-size: 14px;
+}
+
+.first_item,
+.second_item {
+    margin-top: 10px;
+    color: #685403;
+    height: 42px;
+    line-height: 42px;
+    background-image: url(../images/float_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.first_item a,
+.second_item a {
+    color: #685403;
+}
+
+.side_pop .code {
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.side_pop > div {
+    text-align: center;
+}
+
+.scan {
+    color: #ec4d35;
+    font-size: 12px;
+}
+
+.trial {
+    color: #fff;
+    font-size: 16px;
+    background-image: url(../images/float_02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 42px;
+    height: 42px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.trial a {
+    color: #fff!important;
+    display: block;
+}
+
+.closed_pop {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    cursor: pointer;
+}
+
+.QQ_icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/float_04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+    margin-bottom: -6px;
+    display: inline-block;
+}
+
+.online_icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/float_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+    margin-bottom: -6px;
+    display: inline-block;
+}
+
+.hotline_icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/left_pop_05.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 8px;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+
+.coop_submit {
+    margin-top: 20px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.coop_submit a {
+    height: 50px!important;
+    background-color: #ea5354;
+    color: #fff;
+    padding-left: 0!important;
+    margin-left: 0!important;
+    font-size: 24px!important;
+    margin-bottom: 30px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.coop_submit input:hover {
+    background-color: #d84243!important;
+}
+
+.close_pop {
+    position: absolute;
+    top: 0;
+    right: 8px;
+}
+
+
+/*固定底部*/
+
+.footer_fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 999;
+}
+
+.footer_fixed_div {
+    height: 60px;
+    padding: 10px 5px;
+}
+
+.footer_fixed_div input {
+    width: 58%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    line-height: 40px;
+    text-indent: 1em;
+    font-size: 16px;
+    color: #888888;
+    margin-left: 10%;
+}
+
+.footer_fixed_div button {
+    width: 26%;
+    height: 40px;
+    background-color: #3ee1a6;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 3%;
+    color: #fff;
+    font-size: 16px;
+}
+
+
